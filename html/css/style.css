@@ -1,0 +1,68 @@
+.container {
+    margin: 4%;
+    box-shadow: 10px 10px 8px -8px rgba(94, 91, 94, 1);
+}
+
+.firstclass {
+    display: flex;
+    border: outset;
+    border-color: lightgray;
+    border-width: thin;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.secondclass {
+    display: flex;
+    flex-direction: row;
+}
+
+.scrumdivdefinition {
+    height: 43px;
+    width: 86%;
+    display: flex;
+    flex-grow: inherit;
+}
+
+.payment {
+    width: 60%;
+    padding: 1%;
+    border-style: outset;
+    border-width: thin;
+}
+
+.cart {
+    width: 60%;
+    padding: 1%;
+    border-style: outset;
+    border-width: thin;
+    background-color: lightgray;
+}
+
+.thickness {
+    font-weight: 900;
+    font-size: 100%;
+}
+
+.breadscrum {
+    list-style: none;
+}
+
+.breadcrumb li {
+    display: inline;
+    font-size: inherit;
+}
+
+.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+.btn {
+    border: none;
+    padding: 0;
+    border-width: thin;
+    font-size: 90%;
+}
